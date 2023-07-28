@@ -1,0 +1,196 @@
+/* Header */
+.logo {
+	float: left;
+	padding: 5px;
+	height: 50px;
+}
+
+.logo img {
+	height: 200%;
+}
+header{
+
+
+background :
+        linear-gradient(black, transparent),
+        linear-gradient(to top left,black, transparent),
+        linear-gradient(to top right,black, transparent);
+    background-blend-mode: screen;
+}
+a
+{
+position: relative;
+display: inline-block;
+padding:25px 15px;
+margin:20px 10px;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+transition: 0.9s;
+letter-spacing: 2px;
+overflow: hidden;
+margin-right:20px;
+}
+
+
+a:hover
+{
+background: #03e9f4;
+color: #050801;
+box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+-webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+a:nth-child(1)
+{
+filter:hue-rotate(270deg);
+}
+
+a:nth-child(2)
+{
+filter:hue-rotate(110deg);
+}
+
+a:nth-child(3)
+{
+filter:hue-rotate(200deg);
+}
+
+a:nth-child(4)
+{
+filter:hue-rotate(270deg);
+}
+
+a:nth-child(5)
+{
+filter:hue-rotate(110deg);
+}
+
+a:nth-child(6)
+{
+filter:hue-rotate(186deg);
+}
+
+/* HOME */
+#home{
+	background-image :url("bg3.png");
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+}
+
+h2 {
+	font-size: 3rem;
+	margin: 0 0 20px 0;
+}
+
+p {
+	font-size: 1.5rem;
+	margin: 0 0 40px 0;
+	text-align: center;
+}
+
+.btn {
+	background-color: #fff;
+	border: none;
+	border-radius: 25px;
+	color: #222;
+	display: inline-block;
+	font-size: 1.2rem;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+
+/* Artists */
+#artists {
+	background-color:black;
+	padding: 50px 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.card {
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	display: inline-block;
+	margin: 20px;
+	max-width: 300px;
+	overflow: hidden;
+}
+
+.card img {
+	height: 300px;
+	object-fit: cover;
+	width: 100%;
+}
+
+.card h3 {
+	font-size: 1.5rem;
+	margin: 20px 0 0 0;
+	color: black;
+}
+
+.card p {
+	font-size: 1rem;
+	margin: 10px;
+	color: black;
+}
+
+
+
+
+/* Albums */
+#albums {
+	background-color:black;
+	padding: 50px 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.card2 {
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	display: inline-block;
+	margin: 20px;
+	max-width: 500px;
+	overflow: hidden;
+}
+.card2 img {
+	height: 150px;
+	object-fit: cover;
+	width: 100%;
+}
+
+.card2 h3 {
+	font-size: 1.5rem;
+	margin: 20px 0 0 0;
+	color: black;
+}
+
+.card2 p {
+	font-size: 1rem;
+	margin: 10px;
+}
+
+
+/* Footer */
+footer {
+	background-color: #222;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
